@@ -5,6 +5,20 @@
     <title>LU06.A02 - Buch</title>
   </head>
   <body>
+    <form>
+      <label for="buchtitel">Buchtitel</label>
+      <input id="buchtitel" name="buchtitel" type="text" minlength="2" maxlength="30" required/>
+      <label for="autor">Autor</label>
+      <input id="autor" name="autor" type="text" minlength="5" maxlength="40"/>
+      <label for="preis">Preis</label>
+      <input id="preis" name="autor" type="number" min="0.05" max="99.95"/>
+      <label for="release">Erscheinungsjahr</label>
+      <input id="release" name="release" type="date"/>
+      <label for="auflage">Auflage</label>
+      <input id="auflage" name="auflage" type="number" min="1" max="9"/>
 
+      <button type="submit">Absenden</button>
+      <button type="reset">Zurücksetzen</button>
+    </form>
   </body>
 </html>
